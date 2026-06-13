@@ -1,11 +1,4 @@
-/**
- * mazeGenerator.js — Random Maze with Path Guarantee
- * 
- * Generates random walls (~30% density) with guaranteed solvability.
- * Uses BFS flood-fill repair loop to ensure path exists.
- * 
- * Feature: maze-solver-visualizer
- */
+// Random maze generator
 
 /**
  * BFS flood-fill to check reachability from start to end.

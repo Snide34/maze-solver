@@ -1,11 +1,4 @@
-/**
- * bfs.js — Breadth-First Search Algorithm
- * 
- * Explores cells level-by-level using a FIFO queue.
- * Guarantees shortest path when all edge weights are 1.
- * 
- * Feature: maze-solver-visualizer
- */
+// BFS algorithm
 
 /**
  * Execute BFS from start to end on the grid.

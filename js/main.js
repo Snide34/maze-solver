@@ -1,10 +1,4 @@
-/**
- * main.js — Application Entry Point
- * 
- * Wires modules together, registers event listeners, restores theme.
- * 
- * Feature: maze-solver-visualizer
- */
+// Application entry point
 
 import * as Visualizer from './visualizer.js';
 

@@ -1,11 +1,4 @@
-/**
- * statisticsPanel.js — Statistics Display
- * 
- * Direct DOM reads/writes for algorithm statistics.
- * No state stored in module — purely a view.
- * 
- * Feature: maze-solver-visualizer
- */
+// Statistics panel
 
 /**
  * Update statistics panel with algorithm results.

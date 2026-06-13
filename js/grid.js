@@ -1,11 +1,4 @@
-/**
- * grid.js — DOM Grid Management
- * 
- * Responsibility: Create/destroy cell elements, map DOM events to grid coordinates,
- * apply CSS classes based on Cell_State.
- * 
- * Feature: maze-solver-visualizer
- */
+// Grid rendering and DOM management
 
 // Module-scoped 2D array for fast cell lookup
 let cellsArray = [];

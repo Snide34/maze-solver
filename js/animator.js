@@ -1,10 +1,4 @@
-/**
- * animator.js — setTimeout-based animation loop
- * 
- * Combines visited and path cell arrays into sequential animation steps.
- * Schedules each step via setTimeout with configurable speed.
- * Provides cancellation support for mid-animation interrupts.
- */
+// Animation module
 
 let timeoutIds = [];
 

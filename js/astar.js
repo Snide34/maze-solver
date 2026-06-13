@@ -1,11 +1,4 @@
-/**
- * astar.js — A* Search Algorithm
- * 
- * Heuristic-guided shortest path using Manhattan distance.
- * Guarantees shortest path when heuristic is admissible.
- * 
- * Feature: maze-solver-visualizer
- */
+// A* algorithm
 
 // Simple binary min-heap for open set
 class MinHeap {

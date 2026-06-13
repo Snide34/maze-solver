@@ -1,11 +1,4 @@
-/**
- * visualizer.js — Orchestrator Module
- * 
- * Owns gridState, coordinates Grid, Animator, Algorithms, Statistics.
- * Single source of truth for all maze state.
- * 
- * Feature: maze-solver-visualizer
- */
+// Main orchestrator module
 
 import * as Grid from './grid.js';
 import * as Animator from './animator.js';

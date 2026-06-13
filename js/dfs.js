@@ -1,11 +1,4 @@
-/**
- * dfs.js — Depth-First Search Algorithm
- * 
- * Explores cells depth-first using a LIFO stack.
- * Does NOT guarantee shortest path.
- * 
- * Feature: maze-solver-visualizer
- */
+// DFS algorithm
 
 /**
  * Execute DFS from start to end on the grid.

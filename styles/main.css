@@ -1,8 +1,6 @@
-/* ============================================
-   Maze Solver Visualizer - Main Stylesheet
-   ============================================ */
+/* Main Stylesheet */
 
-/* CSS Custom Properties - Light Theme (Default) */
+/* Light Theme */
 :root {
   --bg: #ffffff;
   --cell-empty: #f0f0f0;
@@ -18,7 +16,7 @@
   --cols: 20;
 }
 
-/* Dark Theme Overrides */
+/* Dark Theme */
 [data-theme="dark"] {
   --bg: #1a1a2e;
   --cell-empty: #16213e;
@@ -27,10 +25,6 @@
   --text: #e0e0e0;
   /* visited, path, start, end colors stay the same - semantic colors */
 }
-
-/* ============================================
-   Base Styles
-   ============================================ */
 
 * {
   margin: 0;
@@ -58,9 +52,6 @@ body {
   gap: 1.5rem;
 }
 
-/* ============================================
-   Toolbar
-   ============================================ */
 
 .toolbar {
   display: flex;
@@ -126,9 +117,6 @@ body {
   padding: 0.4rem 0.8rem;
 }
 
-/* ============================================
-   Grid Container
-   ============================================ */
 
 #grid-container {
   display: grid;
@@ -143,9 +131,6 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* ============================================
-   Grid Cells
-   ============================================ */
 
 .cell {
   aspect-ratio: 1;
@@ -184,9 +169,6 @@ body {
   background-color: var(--cell-path);
 }
 
-/* ============================================
-   Statistics Panel
-   ============================================ */
 
 .stats-panel {
   display: flex;
