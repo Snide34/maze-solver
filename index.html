@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Solver Visualizer</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <div class="toolbar-group">
+                <label for="algorithm-select">Algorithm:</label>
+                <select id="algorithm-select">
+                    <option value="bfs">BFS</option>
+                    <option value="dfs">DFS</option>
+                    <option value="astar">A*</option>
+                </select>
+            </div>
+
+            <div class="toolbar-group">
+                <label for="speed-slider">Speed:</label>
+                <input type="range" id="speed-slider" min="10" max="200" value="30">
+                <span id="speed-value">30ms</span>
+            </div>
+
+            <div class="toolbar-group">
+                <button id="btn-run">Run</button>
+                <button id="btn-generate">Generate Maze</button>
+                <button id="btn-reset">Reset</button>
+                <button id="btn-clear-path">Clear Path</button>
+            </div>
+
+            <div class="toolbar-group">
+                <label for="grid-size-select">Grid Size:</label>
+                <select id="grid-size-select">
+                    <option value="10">10×10</option>
+                    <option value="20" selected>20×20</option>
+                    <option value="30">30×30</option>
+                </select>
+            </div>
+
+            <div class="toolbar-group">
+                <button id="btn-theme" title="Toggle theme">🌙</button>
+            </div>
+        </div>
+
+        <!-- Grid Container -->
+        <div id="grid-container"></div>
+
+        <!-- Statistics Panel -->
+        <div class="stats-panel">
+            <div class="stat-item">
+                <span class="stat-label">Algorithm:</span>
+                <span id="stat-algorithm" class="stat-value">—</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Visited Nodes:</span>
+                <span id="stat-visited" class="stat-value">—</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Path Length:</span>
+                <span id="stat-path" class="stat-value">—</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Execution Time:</span>
+                <span id="stat-time" class="stat-value">—</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JavaScript Module -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
